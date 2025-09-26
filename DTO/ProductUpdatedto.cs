@@ -12,5 +12,7 @@ namespace StilSepetiApp.DTO
         public string SubCategory { get; set; }
         public string Size { get; set; }
         public int Stock { get; set; }
+        public string? ImageUrl { get; set; }
+
     }
 }
